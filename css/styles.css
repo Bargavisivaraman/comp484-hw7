@@ -119,6 +119,29 @@ ul li::before {
   color: #fff;
 }
 
+.site-header .content-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.site-header .column-narrow,
+.site-header .column-wide {
+  float: none;
+  min-height: unset;
+}
+
+.site-header .column-narrow {
+  width: auto;
+  padding-right: 0;
+  flex-shrink: 0;
+}
+
+.site-header .column-wide {
+  width: auto;
+  flex: 1;
+}
+
 .site-header h1 {
   color: #fff;
 }
