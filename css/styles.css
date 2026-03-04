@@ -165,7 +165,7 @@ ul li::before {
 
 .profile-img {
   border-radius: 50%;
-  width: 300px;
+  width: 150px;
 }
 
 .summary-section   { background-color: var(--color-bg); }
